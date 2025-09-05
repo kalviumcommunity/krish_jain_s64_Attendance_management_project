@@ -44,3 +44,46 @@ From the project root directory:
  Welcome to Attendance System!
 ==================================
 ```
+
+## Part 2: Student and Course Management
+
+### Files Added
+- `src/com/school/Student.java`
+- `src/com/school/Course.java`
+
+### Features
+- Defined `Student` and `Course` classes.
+- Created arrays of `Student` and `Course` objects.
+- Displayed their details using methods.
+
+### Compile and Run
+```bash
+  javac src/com/school/*.java
+  java -cp src com.school.Main
+```
+
+## ✅ Expected Output
+```
+==================================
+ Welcome to Attendance System!
+==================================
+
+===== Students =====
+Student ID: 1
+Student Name: Alice
+-------------------------
+Student ID: 2
+Student Name: Bob
+-------------------------
+Student ID: 3
+Student Name: Charlie
+-------------------------
+===== Courses =====
+Course ID: 101
+Course Name: Mathematics
+-------------------------
+Course ID: 102
+Course Name: Science
+-------------------------
+```
+---
